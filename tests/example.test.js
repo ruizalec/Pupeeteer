@@ -6,6 +6,7 @@ describe('Mi prueba de navegador', () => {
         const browser = await puppeteer.launch({ headless: false });
         const page = await browser.newPage();
         await page.goto('htpp://example.com');
+        await page.waitForSelector('h1');
         await browser.close();
     })
 })
