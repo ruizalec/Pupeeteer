@@ -1,0 +1,20 @@
+{
+  "name": "pupeeteer",
+  "version": "1.0.0",
+  "description": "curso de automatizacion de puppeteer",
+  "homepage": "https://github.com/ruizalec/Pupeeteer#readme",
+  "bugs": {
+    "url": "https://github.com/ruizalec/Pupeeteer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruizalec/Pupeeteer.git"
+  },
+  "license": "ISC",
+  "author": "alexrc",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
