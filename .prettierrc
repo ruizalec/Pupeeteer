@@ -1,0 +1,9 @@
+module.exports = {
+    "semi": false,
+    "singleQuote": true,
+    "bracketspacing": true,
+    "usetabs": true,
+    "tabWhidth": 4,
+    "trailingcoma": 'es5',
+    
+};
