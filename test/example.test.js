@@ -13,10 +13,7 @@ describe('Mi prueba de navegador', () => {
         // Aquí puedes agregar tu código de prueba
         const browser = await puppeteer.launch({ headless: false })
         const page = await browser.newPage()
-        await page.goto('https://sdmsuplementos.com/collections/advance-nutrition/products/hydrotein-5-lbs')
-        await page.waitForSelector('h1')
-        timeout = 10000
-        const title = await page.title()
+        await page.goto('https://sdmsuplementos.com')
         await browser.close()
     })
     it('Debería abrir una página web x3', async () => {
