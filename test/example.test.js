@@ -20,7 +20,7 @@ describe('Mi prueba de navegador', () => {
         // Aquí puedes agregar tu código de prueba
         const browser = await puppeteer.launch({ headless: false })
         const page = await browser.newPage()
-        await page.goto('htpp://yahoo.com')
+        await page.goto('https://espanol.yahoo.com/?p=us')
         await browser.close()
     })
 })
